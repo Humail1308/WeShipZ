@@ -1,3 +1,6 @@
+import ecommerceImg from '../../assets/workflows/ecommerce.jpeg';
+import resumeImg from '../../assets/workflows/resume.png';
+import shortsImg from '../../assets/workflows/shorts.png';
 import { motion } from 'framer-motion';
 
 const projects = [
@@ -10,13 +13,13 @@ const projects = [
   {
     name: "Resume Rewriter",
     description: "Automated resume tailoring system that rewrites CVs based on job descriptions.",
-    image: "/src/assets/workflows/resume.png",
+    image: "/src/assets/workflows/resume.jpeg",
     tag: "HR · AI Writing",
   },
   {
     name: "Automated Shorts Creator",
     description: "End-to-end pipeline that turns long-form content into short-form videos automatically.",
-    image: "/src/assets/workflows/shorts.png",
+    image: "/src/assets/workflows/shorts.jpeg",
     tag: "Content · Video AI",
   },
 ];
